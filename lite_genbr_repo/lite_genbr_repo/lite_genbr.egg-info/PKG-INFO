@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: lite-genbr
+Version: 0.1.0
+Summary: Lite Gen-BR (planning PSRO) + 2-robot CPTG + MultiNash-PF (lite)
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: numpy>=1.24
+Requires-Dist: scipy>=1.10
+Requires-Dist: matplotlib>=3.7
+Requires-Dist: tqdm>=4.66
+Dynamic: license-file
