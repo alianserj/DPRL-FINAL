@@ -75,8 +75,10 @@ class MultiNashParams:
     J: int = 30
     # stddev of gaussian noise on waypoints (meters)
     noise_sigma: float = 0.35
-    # max L-BFGS-B iterations per particle (cheap local refinement)
+    # (kept for compatibility; UKF-PF does not use this)
     pf_refine_iters: int = 10
+    # downsample factor when computing Fréchet distances (higher = faster clustering)
+    frechet_stride: int = 2
     # Fréchet distance threshold used for clustering particles into modes
     cluster_eps: float = 1.5
     # maximum number of distinct local solutions to refine

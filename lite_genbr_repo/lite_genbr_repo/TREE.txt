@@ -45,6 +45,7 @@ lite_genbr_repo/
     viz/
       __init__.py
       plot_grid.py
+      plot_outer_game.py
       plot_psro.py
       plot_trajectories.py
   tests/
